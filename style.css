@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
@@ -14,3 +17,77 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+
+body {
+    background-color: #b2bec3;
+}
+
+.ramecek {
+    background-color: white;
+    width: 550px;
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: gray 4px 6px 20px;
+    padding: 30px;
+    font-family: 'Nunito';
+}
+
+.ramecek img {
+    position: absolute;
+    top: -75px;
+    right: -75px;
+    width: 150px;
+    height: 150px;
+    border: white solid 3px;
+    border-radius: 150px;
+}
+
+.ramecek h1 {
+    color: #d63031;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.ramecek p {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+.tlacitko {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+}
+
+a .tlacitko {
+    display: block;
+    height: 18px;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    margin-bottom: 5px;
+}
+
+.twitter:hover {
+    background-color: #0b7bc1;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.facebook:hover {
+    background-color: #2b406e;
+}
